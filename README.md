@@ -1,4 +1,4 @@
-# vue-template
+# Totem
 
 Built from the vue-cli. Modified to include bootstrap-vue.
 
@@ -21,7 +21,7 @@ nvm use 10.16
 ### Installing on Windows / Mac OS / Linux
 
 ```bash
-cd ./vue-template
+cd ./Totem
 ```
 
 Proceed to **Project Setup**.
@@ -31,7 +31,7 @@ Proceed to **Project Setup**.
 Install `node-gyp` via NPM first:
 
 ```bash
-cd ./vue-template
+cd ./Totem
 npm install node-gyp
 ```
 
@@ -41,7 +41,7 @@ Then open `common.gypi` with a text editor such as Nano:
 nano ~/.node-gyp/YOUR_INSTALLED_VERSION/include/node/common.gypi
 ```
 
-Search for the first occurrence of `"android"`, and replace `'-fPIE'` with `'-fPIC'` for both `'cflags'` and `'ldflags'`. Remove the `-pie` flag from `'ldflags'` as well. Search for the second occurrence of `"android"` and repeat the steps above. Save the file, and be sure to `cd` back into the vue-template directory if necessary.
+Search for the first occurrence of `"android"`, and replace `'-fPIE'` with `'-fPIC'` for both `'cflags'` and `'ldflags'`. Remove the `-pie` flag from `'ldflags'` as well. Search for the second occurrence of `"android"` and repeat the steps above. Save the file, and be sure to `cd` back into the Totem directory if necessary.
 
 You may now proceed to **Project Setup**.
 
