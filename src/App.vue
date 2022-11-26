@@ -2,8 +2,10 @@
     <div id="app">
         <div id="nav">
             <router-link to="/">Home</router-link> |
-            <router-link to="/api">API Example</router-link> |
-            <router-link to="/about">About</router-link>
+            <router-link to="/about">About</router-link> |
+            <router-link to="/shop">Shop</router-link> |
+            <router-link to="/classes">Classes</router-link> |
+            <router-link to="/contact-us">Contact Us</router-link>
         </div>
         <router-view/>
     </div>
@@ -23,7 +25,7 @@
         font-weight: bold;
         color: #2c3e50;
         &.router-link-exact-active {
-            color: #42b983;
+            color: #a32043;
         }
     }
 }
